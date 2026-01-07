@@ -17,7 +17,7 @@ Instead of rote memorization, this series focuses on **Why?**
 
 ## Curriculum: Five Chapters of Depth
 
-### [Chapter 01: The Ghost in the Machine (Memory & Strides)](./01_Tensor_Internal_Storage.ipynb)
+### [Chapter 01: Memory & Strides](./01_Tensor_Internal_Storage.ipynb)
 **The Objective:** Understand that a Tensor is just a "view" of a flat 1D array.
 - **Key Concepts:** Storage, Stride, Storage Offset, and Contiguity.
 - **The Research Why:** Learn why `transpose()` is zero-latency and why `view()` fails on non-contiguous memory.
@@ -69,3 +69,4 @@ Each problem in this repository is followed by a **Post-Mortem** section. This i
 1. Common errors faced (e.g., In-place updates in Autograd).
 2. The underlying math or memory rule that explains the fix.
 3. Where this specific concept appears in major AI papers (e.g., GANs, Transformers).
+
