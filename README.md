@@ -23,7 +23,7 @@ Instead of rote memorization, this series focuses on **Why?**
 - **The Research Why:** Learn why `transpose()` is zero-latency and why `view()` fails on non-contiguous memory.
 - **Problem:** Manually calculate the memory index of a transposed matrix using stride math.
 
-### [Chapter 02: Dimension Mastery (Einsum & Unfold)](./02_Broadcasting_and_Einsum.ipynb)
+### [Chapter 02: Dimension Mastery (Einsum & Unfold)](./notebooks/02_dimension_mastery.ipynb)
 **The Objective:** Master high-dimensional manipulation without "Dimension Hell."
 - **Key Concepts:** `torch.einsum`, Broadcasting (Expansion Trick), and `unfold`.
 - **The Research Why:** Implement the **Multi-Head Attention** score and **Sliding Window Convolutions** using declarative index notation.
@@ -69,5 +69,6 @@ Each problem in this repository is followed by a **Post-Mortem** section. This i
 1. Common errors faced (e.g., In-place updates in Autograd).
 2. The underlying math or memory rule that explains the fix.
 3. Where this specific concept appears in major AI papers (e.g., GANs, Transformers).
+
 
 
