@@ -29,7 +29,7 @@ Instead of rote memorization, this series focuses on **Why?**
 - **The Research Why:** Implement the **Multi-Head Attention** score and **Sliding Window Convolutions** using declarative index notation.
 - **Problem:** Use `unfold` to implement a manual 1D convolution without `nn.Conv1d`.
 
-### [Chapter 03: The Autograd Engine (Calculus from Scratch)](./03_Autograd_and_Backprop.ipynb)
+### [Chapter 03: The Autograd Engine ](./notebooks/03_autograd.ipynb)
 **The Objective:** Demystify the computational graph and the backpropagation tape.
 - **Key Concepts:** `requires_grad`, `backward()`, `detach()`, and Gradient Accumulation.
 - **The Research Why:** Audit PyTorch's math by comparing Autograd results against manual Chain Rule derivatives.
@@ -69,6 +69,7 @@ Each problem in this repository is followed by a **Post-Mortem** section. This i
 1. Common errors faced (e.g., In-place updates in Autograd).
 2. The underlying math or memory rule that explains the fix.
 3. Where this specific concept appears in major AI papers (e.g., GANs, Transformers).
+
 
 
 
