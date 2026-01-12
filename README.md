@@ -35,7 +35,7 @@ Instead of rote memorization, this series focuses on **Why?**
 - **The Research Why:** Audit PyTorch's math by comparing Autograd results against manual Chain Rule derivatives.
 - **Problem:** Build a manual training loop for a single neuron without using `nn.Linear` or built-in optimizers.
 
-### [Chapter 04: Modular Foundations (Building nn.Module)](./04_Modular_Architectures.ipynb)
+### [Chapter 04: Modular Foundations (Building nn.Module)](./notebooks/04_building_architecture.ipynb)
 **The Objective:** Transition from raw tensors to "Batch-Ready" objects.
 - **Key Concepts:** `nn.Module`, `nn.Parameter`, and `state_dict`.
 - **The Research Why:** Understand how PyTorch "finds" parameters inside nested modules (like Transformers).
@@ -69,6 +69,7 @@ Each problem in this repository is followed by a **Post-Mortem** section. This i
 1. Common errors faced (e.g., In-place updates in Autograd).
 2. The underlying math or memory rule that explains the fix.
 3. Where this specific concept appears in major AI papers (e.g., GANs, Transformers).
+
 
 
 
