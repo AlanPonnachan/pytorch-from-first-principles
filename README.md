@@ -41,7 +41,7 @@ Instead of rote memorization, this series focuses on **Why?**
 - **The Research Why:** Understand how PyTorch "finds" parameters inside nested modules (like Transformers).
 - **Problem:** Implement a custom `MyLinear` layer using `einsum` that supports vectorized batches of data.
 
-### [Chapter 05: The Industrial Pipeline (Datasets & Training)](./05_Data_and_Training_Loops.ipynb)
+### [Chapter 05: The  Pipeline (Datasets & Training)](./notebooks/05_end2end_pipeline.ipynb)
 **The Objective:** Build a scalable "Conveyor Belt" for real-world research data.
 - **Key Concepts:** `Dataset`, `DataLoader`, `nn.Sequential`, and `BCEWithLogitsLoss`.
 - **The Research Why:** Handle data bottlenecks using multiprocessing and understand numerical stability in loss functions.
@@ -69,6 +69,7 @@ Each problem in this repository is followed by a **Post-Mortem** section. This i
 1. Common errors faced (e.g., In-place updates in Autograd).
 2. The underlying math or memory rule that explains the fix.
 3. Where this specific concept appears in major AI papers (e.g., GANs, Transformers).
+
 
 
 
